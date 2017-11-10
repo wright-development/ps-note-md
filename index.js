@@ -4,7 +4,7 @@ const csv = require('fast-csv');
 const fs = require('fs');
 
 const argv = require('yargs')
-.version('1.0.0')
+.version('1.0.1')
 .usage('Usage: $0 [csv] -m [md]')
 .demandCommand(1, "You must specify the name of the csv to convert to markdown.")
 .describe('m', 'The name of the md file to be saved.')
