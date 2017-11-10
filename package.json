@@ -1,19 +1,35 @@
 {
-  "name": "ps-note-md",
+  "name": "ps-notes",
   "version": "1.0.0",
   "description": "Tool for converting a pluralsight notes csv into a markdown file.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "prepublish": "crlf --set=LF ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readme": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wright-development/ps-note-md.git"
   },
   "author": "Darrius Wright",
   "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "ps-notes": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/wright-development/ps-note-md/issues"
   },
-  "homepage": "https://github.com/wright-development/ps-note-md#readme"
+  "homepage": "https://github.com/wright-development/ps-note-md#readme",
+  "dependencies": {
+    "crlf": "^1.1.1",    
+    "fast-csv": "^2.4.1",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
