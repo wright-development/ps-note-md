@@ -1,6 +1,6 @@
 {
   "name": "ps-notes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tool for converting a pluralsight notes csv into a markdown file.",
   "main": "index.js",
   "scripts": {
