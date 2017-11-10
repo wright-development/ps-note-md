@@ -1,0 +1,19 @@
+{
+  "name": "ps-note-md",
+  "version": "1.0.0",
+  "description": "Tool for converting a pluralsight notes csv into a markdown file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wright-development/ps-note-md.git"
+  },
+  "author": "Darrius Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wright-development/ps-note-md/issues"
+  },
+  "homepage": "https://github.com/wright-development/ps-note-md#readme"
+}
